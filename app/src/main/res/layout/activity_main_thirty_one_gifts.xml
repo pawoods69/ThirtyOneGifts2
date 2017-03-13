@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.thirtyonegifts.MainActivityThirtyOneGifts">
+    <ImageView
+        android:id="@+id/photo_image_view"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingRight="70dp"
+        android:src="@drawable/customerspecial"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:text="March Customer Special"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    android:fontFamily="sans-serif-medium"
+    android:textColor="#64DD17"
+    android:id="@+id/March" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:paddingLeft="120dp"
+        android:text="50% OFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#64DD17"
+        android:id="@+id/halfoff" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="100dp"
+        android:paddingLeft="30dp"
+        android:text="FACEBOOK ME ANYTIME-PAULA"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#C62828"
+        android:id="@+id/facebook"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="-116dp" />
+    <ImageView
+        android:id="@+id/photo_image_view"
+
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:paddingRight="70dp"
+        android:src="@drawable/thirtyonelogo"
+        tools:layout_editor_absoluteY="218dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="250dp"
+        android:layout_below="@+id/facebook"
+        android:layout_alignRight="@+id/March"
+        android:layout_alignEnd="@+id/March" />
+
+
+</RelativeLayout>
